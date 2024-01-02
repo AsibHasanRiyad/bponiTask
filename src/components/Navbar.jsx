@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
 const Navbar = () => {
   return (
-    <div className=" fixed w-full top-0 bg-[#F5F4F2]">
+    <div className=" fixed w-full top-0 bg-[#F5F4F2] z-50">
       <div className="navbar px-4 lg:px-6 py-3">
         {/* nav start */}
         <div className="flex-1 flex items-center gap-4">
