@@ -5,7 +5,7 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 
 const Sidebar1 = () => {
   return (
-    <div className="drawer lg:drawer-open">
+    <div className="drawer lg:drawer-open bg-transparent">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content mt-0 pl-2 flex flex-col items-start justify-start">
         {/* Page content here */}
@@ -16,7 +16,7 @@ const Sidebar1 = () => {
           <GiHamburgerMenu />
         </label>
       </div>
-      <div className="drawer-side ml-20">
+      <div className="drawer-side ml-0 xl:ml-16">
         <label
           htmlFor="my-drawer-2"
           aria-label="close sidebar"
