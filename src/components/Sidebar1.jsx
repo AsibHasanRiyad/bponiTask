@@ -28,7 +28,7 @@ const Sidebar1 = () => {
             <IoIosArrowRoundBack className="text-3xl" /> All Restaurants
           </h1>
         </div>
-        <ul className="menu m-0 p-0 mt-10 min-h-full w-72 lg:w-full pt-14 space-y-4 bg-gray-200 lg:bg-transparent text-base-content">
+        <ul className="menu m-0 p-0 mt-10 min-h-full w-72 lg:w-full pt-8 space-y-4 bg-gray-200 lg:bg-transparent text-base-content">
           <li>
             <h1 className=" text-xl font-medium">Menu</h1>
           </li>

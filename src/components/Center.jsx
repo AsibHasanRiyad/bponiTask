@@ -1,13 +1,26 @@
+import { useEffect, useState } from "react";
 import Banner from "./Banner";
-
+import Card from "./Card";
 
 const Center = () => {
-    return (
-        <div>
-            {/* banner */}
-            <Banner />
-        </div>
-    );
+    const [data, setData] = useState([])
+    useEffect( () =>{
+        fetch('data.json')
+        .then(res => res.json())
+        .then(data => setData(data))
+    },[])
+  return (
+    <div>
+      {/* banner */}
+      <Banner />
+      <h1 className=" my-5 text-3xl font-semibold">Chicken</h1>
+      <div className=" grid grid-cols-3 gap-4">
+        {
+            data.map(food => <Card key={food.name}></Card>)
+        }
+      </div>
+    </div>
+  );
 };
 
 export default Center;
