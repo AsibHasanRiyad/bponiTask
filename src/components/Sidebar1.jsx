@@ -11,7 +11,7 @@ const Sidebar1 = () => {
         {/* Page content here */}
         <label
           htmlFor="my-drawer-2"
-          className="btn btn-ghost text-3xl drawer-button lg:hidden"
+          className="btn btn-ghost text-3xl px-1 md:px-4 drawer-button lg:hidden"
         >
           <GiHamburgerMenu />
         </label>
