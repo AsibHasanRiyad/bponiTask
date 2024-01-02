@@ -16,7 +16,7 @@ const Center = () => {
       <h1 className=" my-5 text-3xl font-semibold">Chicken</h1>
       <div className=" grid grid-cols-3 gap-4">
         {
-            data.map(food => <Card key={food.name}></Card>)
+            data.map(food => <Card key={food.name} food={food} ></Card>)
         }
       </div>
     </div>

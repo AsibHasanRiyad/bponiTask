@@ -1,5 +1,6 @@
 
 import Center from "./components/Center";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Sidebar1 from "./components/Sidebar1";
 import Sidebar2 from "./components/Sidebar2";
@@ -19,6 +20,7 @@ const App = () => {
           <Sidebar2 />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
